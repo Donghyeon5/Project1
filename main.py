@@ -8,6 +8,9 @@ def sub_func(n1,n2) :
 def multi_func(n1,n2) :
     return n1 * n2
 
+def divi_func(n1,n2) :
+    return n1 / n2
+
 ##전역 변수부
 num1,num2 = 100,200
 result = 0
@@ -21,3 +24,6 @@ print(num1, '-', num2, '=', result)
 
 result = multi_func(num1,num2)
 print(num1, 'x', num2, '=', result)
+
+result = divi_func(num1,num2)
+print(num1, '/', num2, '=', result)
